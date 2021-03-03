@@ -1,0 +1,109 @@
+/*Custom Styles*/
+
+/*Global Styles*/
+body {
+  font-size: 18px;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin-right: 40px;
+}
+
+/*Header*/
+.header {
+  background: #ef6032;
+  padding: 25px 0;
+}
+
+/*Main*/
+.main {
+  background: #d4cea7;
+}
+
+/*Upper Section */
+.list-box {
+  width: 32%;
+  height: 500px;
+  background: #165979;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.7);
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.one {
+  list-style-type: decimal;
+  padding-left: 40px;
+}
+
+li {
+  line-height: 1.6;
+}
+
+.two {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.two-sub {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.two-sub-sub {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.three li {
+  padding: 5px 0;
+}
+.three li i {
+  color: black;
+  padding-right: 10px;
+}
+
+.upper {
+  padding-bottom: 30px;
+}
+
+/*Lower Section*/
+h1 {
+  color: black;
+  font-size: 36px;
+  line-height: 2;
+}
+
+p {
+  color: #252c22;
+  line-height: 1.4;
+}
+
+.lower {
+  padding-bottom: 30px;
+}
+
+/*Footer*/
+.footer {
+  background: #252c22;
+  padding: 35px 0;
+}
